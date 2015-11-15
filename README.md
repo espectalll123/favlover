@@ -1,5 +1,5 @@
 # FavLover
-**Takes back your beloved stars to Tweetdeck!**
+**Takes back your beloved stars to Twitter!**
 
 Missing your faboulous FAVs on Twitter? Can't stand living another day in the world seeing how terrible people do likes to tragic tweets? Well here's the cure for all evil in the online world!
 
