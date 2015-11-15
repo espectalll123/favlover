@@ -1,13 +1,18 @@
 {
     "manifest_version": 2,
 
-    "name": "FavLover for Tweetdeck",
+    "name": "FavLover for Twitter",
     "short_name": "FavLover",
-    "description": "Takes back your beloved stars to Tweetdeck!",
-    "version": "1.0",
-
+    "description": "Takes back your beloved stars to Twitter!",
+    "version": "1.1",
+    
+    "web_accessible_resources": [
+        "sprite_sheet_1x.png",
+        "sprite_sheet_2x.png",
+        "web_heart_animation.png"
+    ],
     "content_scripts": [{
-	"matches": ["*://tweetdeck.twitter.com/*"],
+	"matches": ["*://*.twitter.com/*"],
 	"css": ["fav.css"],
 	"run_at" : "document_start"
     }],
@@ -17,6 +22,6 @@
 	"128": "icon128.png"
     },
     "permissions": [
-	"*://tweetdeck.twitter.com/*"
+	"*://*.twitter.com/*"
     ]
 }

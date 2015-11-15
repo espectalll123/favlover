@@ -7,8 +7,23 @@
 }
 
 .sprite {
-    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png") !important;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/sprite_sheet_x1.png") !important;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) .sprite {
-    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png") !important;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/sprite_sheet_x2.png") !important;
+}
+
+.HeartAnimation {
+    background: url("chrome-extension://__MSG_@@extension_id__/web_heart_animation.png") !important;
+    background-size: 2900% !important;
+    margin-top: 1px;
+}
+.ProfileTweet-action--favorite .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--favorite, .favorited .ProfileTweet-action--favorite .ProfileTweet-actionButtonUndo, .favorited .tweet-actions .Icon--favorite {
+    color: #ffac33 !important
+}
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--heart, .favorited .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButtonUndo {
+    color: #ffac33 !important
+}
+.ProfileTweet-action--favorite .ProfileTweet-actionButton:hover .HeartAnimation, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .HeartAnimation, .favorited .ProfileTweet-action--favorite .HeartAnimation {
+    background-position: right !important;
 }
