@@ -21,9 +21,13 @@
 .ProfileTweet-action--favorite .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--favorite, .favorited .ProfileTweet-action--favorite .ProfileTweet-actionButtonUndo, .favorited .tweet-actions .Icon--favorite {
     color: #ffac33 !important
 }
-.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--heart, .favorited .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButtonUndo {
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--heart, .favorited .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButtonUndo .Icon--colorHeart, .Icon--circleActiveHeart, .Icon--heartBadge {
     color: #ffac33 !important
 }
 .ProfileTweet-action--favorite .ProfileTweet-actionButton:hover .HeartAnimation, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .HeartAnimation, .favorited .ProfileTweet-action--favorite .HeartAnimation {
     background-position: right !important;
 }
+.Icon--heartBadge:before {
+    content: "\f001" !important;
+}
+

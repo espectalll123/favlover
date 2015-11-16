@@ -4,7 +4,7 @@
     "name": "FavLover for Twitter",
     "short_name": "FavLover",
     "description": "Takes back your beloved stars to Twitter!",
-    "version": "1.1",
+    "version": "1.1.1",
     
     "web_accessible_resources": [
         "sprite_sheet_1x.png",
